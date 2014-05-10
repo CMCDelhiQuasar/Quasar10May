@@ -167,7 +167,7 @@
 				<tr>
 					<td><s:label value="Payment Type" labelSeparator=""
 							labelposition="left" /></td>
-					<td><s:radio list="{'Full Fees','Installment'}"
+					<td><s:radio list="{'Full Fees','Installment'}" 
 							onclick="display()" name="paymenttype" label="Payment Type"
 							value="%{'Full Fees'}" labelSeparator="" labelposition="left" /></td>
 					<td><s:fielderror fieldName="paymenttype" /></td>

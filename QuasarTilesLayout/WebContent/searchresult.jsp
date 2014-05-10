@@ -50,8 +50,10 @@
 							value="#s.name" /></a>
 				</div>
 				<s:property value="#s.emailId" />
-				<a href="searchstudent?emailid=<s:property
-							value="#s.emailId" />"><img src="images/forward.png" align="right" /></a> <br>
+				<a
+					href="searchstudent?emailId=<s:property
+							value="#s.emailId" />"><img
+					src="images/forward.png" align="right" /></a> <br>
 			</div>
 		</s:iterator>
 	</s:if>
@@ -76,7 +78,8 @@
 				<br> Desposited Rs .
 				<s:property value="#p.paymentDetails.depositedAmount" />
 				<br> for <a style="color: #000000; text-decoration: none;"><s:property
-						value="#p.student.name" /></a> <a href="searchstudent?emailid=<s:property
+						value="#p.student.name" /></a> <a
+					href="searchstudent?emailId=<s:property
 							value="#p.student.emailId" />"><img
 					src="images/forward.png" align="right" /></a> <br>
 			</div>
