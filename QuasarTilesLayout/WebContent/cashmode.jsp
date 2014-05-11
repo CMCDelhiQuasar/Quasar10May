@@ -106,7 +106,7 @@
 				+ parseFloat(onevalue);
 
 		x.innerHTML = sum * 1;
-		window.confirm(sum);
+	//	window.confirm(sum);
 	}
 </script>
 </head>

@@ -30,6 +30,7 @@
 			<message>Please select proposed date!!</message>
 		</field-validator>
 		<field-validator type="date">
+
 			<message>Please select date!!</message>
 		</field-validator>
 	</field>
@@ -43,12 +44,12 @@
 			<message>Please select date!!</message>
 		</field-validator>
 	</field>
-	
+
 	<field name="paymentMode">
-	    <field-validator type="required">
-	        <param name="trim">true</param>
-	        <message>Please select payment mode!!</message>
-	    </field-validator>
+		<field-validator type="required">
+			<param name="trim">true</param>
+			<message>Please select payment mode!!</message>
+		</field-validator>
 	</field>
-	
+
 </validators>

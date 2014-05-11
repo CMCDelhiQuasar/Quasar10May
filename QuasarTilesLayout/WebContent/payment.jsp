@@ -145,7 +145,7 @@
 
 	<h1>Payment Page</h1>
 	<s:form name="regpayment" theme="simple" method="post" action="payment"
-		onsubmit="return paymentvalidate()">
+		onsubmit="return true">
 		<s:set var="pa"
 			value="#session.shagird.paymentsList.get(0).paymentDetails.proposedAmount" />
 		<br />

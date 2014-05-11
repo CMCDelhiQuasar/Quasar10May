@@ -81,8 +81,7 @@
 					<td><s:label value="Email Id" labelSeparator=""
 							labelposition="left" /></td>
 					<td><s:textfield label="Email Id" labelSeparator=""
-							labelposition="left" name="studentemail"
-							/></td>
+							labelposition="left" name="studentemail" /></td>
 					<td><s:fielderror fieldName="studentemail" /></td>
 					<td><div id="myDiv"></div></td>
 				</tr>
@@ -124,7 +123,8 @@
 							labelposition="left" /></td>
 					<td><sj:autocompleter label="Course Fees" labelSeparator=""
 							labelposition="left" name="coursefee" value="10000"
-							list="{'10000','12000','15000','150000'}" /></td>
+							list="{'100','10000','20000','30000'}" /></td>
+					<td><s:fielderror fieldName="coursefee" /></td>
 				</tr>
 
 				<tr>
@@ -132,7 +132,8 @@
 							labelposition="left" /></td>
 					<td><sj:autocompleter label="Service Tax(%)" labelSeparator=""
 							value="10.45" labelposition="left" name="servicetax"
-							list="{'10.45','20','30','40'}" /></td>
+							list="{'10.45','11.54'}" /></td>
+					<td><s:fielderror fieldName="servicetax" /></td>
 				</tr>
 
 				<tr>
@@ -140,7 +141,8 @@
 							labelposition="left" /></td>
 					<td><sj:autocompleter label="Discount(%)" labelSeparator=""
 							value="10" labelposition="left" name="discount"
-							list="{'10','20','30','40'}" /></td>
+							list="{'10','20','30'}" /></td>
+					<td><s:fielderror fieldName="discount" /></td>
 				</tr>
 
 				<tr>
@@ -148,7 +150,8 @@
 							labelposition="left" /></td>
 					<td><sj:autocompleter label="Fine(if any)" labelSeparator=""
 							value="10" labelposition="left" name="fine"
-							list="{'10','20','30','40'}" /></td>
+							list="{'10','20','30'}" /></td>
+					<td><s:fielderror fieldName="fine" /></td>
 				</tr>
 
 				<tr>
@@ -167,7 +170,7 @@
 				<tr>
 					<td><s:label value="Payment Type" labelSeparator=""
 							labelposition="left" /></td>
-					<td><s:radio list="{'Full Fees','Installment'}" 
+					<td><s:radio list="{'Full Fees','Installment'}"
 							onclick="display()" name="paymenttype" label="Payment Type"
 							value="%{'Full Fees'}" labelSeparator="" labelposition="left" /></td>
 					<td><s:fielderror fieldName="paymenttype" /></td>
